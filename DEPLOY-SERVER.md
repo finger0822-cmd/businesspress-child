@@ -81,3 +81,4 @@ chmod +x deploy.sh
 - リポジトリがパブリックの場合、認証は不要です
 - プライベートリポジトリの場合は、SSH鍵またはPersonal Access Tokenを設定してください
 
+

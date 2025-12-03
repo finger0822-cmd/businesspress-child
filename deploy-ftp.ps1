@@ -36,3 +36,4 @@ foreach ($path in $RemotePaths) {
 Write-Host "`n実際のリモートディレクトリのパスが分かっている場合は、" -ForegroundColor Yellow
 Write-Host "GitHub Secretsに設定するか、このスクリプトを編集してください。" -ForegroundColor Yellow
 
+
