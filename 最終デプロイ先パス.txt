@@ -1,0 +1,24 @@
+===============================================
+デプロイ先パス（最終確認）
+===============================================
+
+提供されたデプロイ先パス：
+public_html/suzukireinetsu.com/wp-content/themes/lightning-child/
+
+GitHub Secrets の FTP_REMOTE_DIR に設定する値：
+
+【選択肢1】先頭にスラッシュを付ける（絶対パス）
+/public_html/suzukireinetsu.com/wp-content/themes/lightning-child/
+
+【選択肢2】先頭にスラッシュを付けない（相対パス）
+public_html/suzukireinetsu.com/wp-content/themes/lightning-child/
+
+===============================================
+
+FTPサーバーの設定によって、先頭のスラッシュが必要かどうかが異なります。
+
+通常は絶対パス（先頭にスラッシュあり）が推奨されますが、
+もし先頭スラッシュなしで動作する場合は、そのパスを使用してください。
+
+===============================================
+
