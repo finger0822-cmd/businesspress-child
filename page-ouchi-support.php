@@ -16,7 +16,7 @@ get_header(); ?>
 
       <h1 style="font-size: 2.4rem; line-height: 1.4; margin-bottom: 1rem; color: #1f2937;">
 
-        月額9,800円で、暮らしに「安心の習慣」を。
+        月額10,000円で、暮らしに「安心の習慣」を。
 
       </h1>
 
@@ -114,7 +114,7 @@ get_header(); ?>
 
         <p style="margin: 0.25rem 0; font-weight: bold; font-size: 1.1rem;">
 
-          月額9,800円（税込）／月2回訪問（各60分）
+          月額10,000円（税込）／月2回訪問（各60分）
 
         </p>
 
