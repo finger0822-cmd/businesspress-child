@@ -1,0 +1,53 @@
+===============================================
+GitHub Secrets設定手順
+===============================================
+
+以下の手順でGitHub Secretsを設定すると、自動デプロイが有効になります。
+
+【ステップ1】GitHubリポジトリにアクセス
+https://github.com/finger0822-cmd/businesspress-child
+
+【ステップ2】Settings → Secrets and variables → Actions を開く
+
+【ステップ3】以下の4つのSecretを追加（「New repository secret」をクリック）
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Secret 1: FTP_SERVER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Name: FTP_SERVER
+Secret: www1080.conoha.ne.jp
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Secret 2: FTP_USERNAME
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Name: FTP_USERNAME
+Secret: takeru7736@suzukireinetsu.com
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Secret 3: FTP_PASSWORD
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Name: FTP_PASSWORD
+Secret: h3QRh72h@@8yTR5
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Secret 4: FTP_REMOTE_DIR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Name: FTP_REMOTE_DIR
+Secret: /public_html/suzukireinetsu.com/wp-content/themes/lightning-child/
+
+【確認済みのリモートディレクトリパス】
+/public_html/suzukireinetsu.com/wp-content/themes/lightning-child/
+
+【ステップ4】設定後の確認
+1. GitHubの「Actions」タブを開く
+2. 失敗しているワークフローがあれば「Re-run jobs」をクリック
+3. または、新しい変更をプッシュすると自動デプロイが開始されます
+
+【注意】
+- リモートディレクトリのパスが不明な場合は、FTPクライアントで
+  サーバーに接続して実際のパスを確認してください
+- WordPressのテーマディレクトリは通常 /wp-content/themes/ です
+- 子テーマのフォルダ名が lightning-child であることを確認してください
+
+===============================================
+

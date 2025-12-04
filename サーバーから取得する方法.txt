@@ -1,0 +1,46 @@
+===============================================
+WordPressサーバーからファイルを取得する方法
+===============================================
+
+【FTP情報】
+- サーバー: www1080.conoha.ne.jp
+- ユーザー名: takeru7736@suzukireinetsu.com
+- パスワード: h3QRh72h@@8yTR5
+- パス: /public_html/suzukireinetsu.com/wp-content/themes/lightning-child/
+
+【方法1: WindowsエクスプローラーでFTP接続】
+
+1. エクスプローラーを開く
+
+2. アドレスバーに以下を入力:
+   ftp://takeru7736@suzukireinetsu.com@www1080.conoha.ne.jp
+
+3. パスワードを入力（h3QRh72h@@8yTR5）
+
+4. 以下のフォルダに移動:
+   public_html/suzukireinetsu.com/wp-content/themes/lightning-child/
+
+5. 必要なファイルをコピー:
+   - functions.php
+   - page-ouchi-support.php
+   - screenshot.png
+   - style.css
+
+【方法2: FileZillaなどのFTPクライアントを使用】
+
+1. FileZillaをダウンロード・インストール
+   https://filezilla-project.org/
+
+2. 以下で接続:
+   ホスト: www1080.conoha.ne.jp
+   ユーザー名: takeru7736@suzukireinetsu.com
+   パスワード: h3QRh72h@@8yTR5
+   ポート: 21
+
+3. リモートサイトで以下に移動:
+   /public_html/suzukireinetsu.com/wp-content/themes/lightning-child/
+
+4. ファイルをダウンロード
+
+===============================================
+

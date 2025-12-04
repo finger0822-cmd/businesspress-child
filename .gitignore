@@ -15,16 +15,24 @@ Thumbs.db
 # ZIP files
 *.zip
 
+<<<<<<< HEAD
 # Node modules
+=======
+# Node modules (if any)
+>>>>>>> 4e42d9a6478c95f0bccfb87834b3b0a7460a3148
 node_modules/
 
 # Environment files
 .env
 .env.local
 
+<<<<<<< HEAD
 # Composer
 vendor/
 
 # Build files
 dist/
 build/
+=======
+
+>>>>>>> 4e42d9a6478c95f0bccfb87834b3b0a7460a3148
