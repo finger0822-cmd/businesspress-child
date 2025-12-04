@@ -1,6 +1,7 @@
 <?php
 /**
  * Template Name: おうち安心サポート
+ * Updated: 2024-12-04
  */
 get_header(); ?>
 
