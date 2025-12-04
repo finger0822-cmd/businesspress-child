@@ -15,12 +15,16 @@ Thumbs.db
 # ZIP files
 *.zip
 
-# Node modules (if any)
+# Node modules
 node_modules/
 
 # Environment files
 .env
 .env.local
 
+# Composer
+vendor/
 
-
+# Build files
+dist/
+build/

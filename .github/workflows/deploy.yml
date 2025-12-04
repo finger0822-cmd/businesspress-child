@@ -51,4 +51,3 @@ jobs:
           *.md
           *.txt
           deploy-ftp.ps1
-
